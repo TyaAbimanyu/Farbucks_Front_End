@@ -1,0 +1,872 @@
+html, body {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+html {
+    zoom: 110%;
+    }
+
+header {
+    display: flexbox;
+    width: 100%;
+    height: 10%;
+    margin-bottom: 4%;
+}
+
+ul {
+    width: 50%;
+    height: 12%;
+    list-style-type: none;
+    margin: 0px;
+    margin-left: 12%;
+    overflow:hidden;
+    display: flexbox;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    z-index: 1000;
+    padding: 10px 12px;
+}
+
+.neat {
+    width: 50%;
+    height: 60px;
+    display: flex;
+    position: relative;
+    background-color:rgb(255, 255, 255);
+    z-index: 1001;
+}
+
+li {
+    position: relative;
+    float: left;
+    z-index: 1000;
+    margin-top:  25px;
+}
+
+li a {
+    display: inline-block;
+    color: black;
+    padding: 40px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight:400;
+    text-align: center;
+    z-index: 1000;
+    
+}
+
+li a:hover {
+    background-color: #0A7144;
+    color: white;
+    transition: 0.5s;
+    z-index: 1000;
+    /* background-color:rgb(128, 64, 4); */
+}
+
+.logo {
+    width: 75px;
+    height: 75px;
+    position:absolute;
+    z-index: 1001;
+    padding-left: 80px;
+    margin-top: -50px;
+    
+}
+
+.green {
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    margin-top: -1.8%;
+    background-color:#0A7144;
+    z-index: 1001;
+}
+
+.dropdown_mobile {
+    visibility: hidden;
+    position: absolute;
+}
+
+/* SECTION (BODY) */
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.Judul {
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 2.5%;
+    margin-left: 14%;
+    word-spacing: 1px;
+    letter-spacing: 1.5px;
+}
+
+.Paragraph_1 {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 2.5%;
+    margin-left: 15.5%;
+    word-spacing: 1px;
+    letter-spacing: 1.3px;
+}
+
+.Gambar {
+    position: relative;
+    width: 641px;
+    height: 543px;
+    margin-top: 6%;
+    margin-left: 17.5%;
+}
+
+.Paragraph_2 {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 7%;
+    margin-left: 15.5%;
+    word-spacing: 1px;
+    letter-spacing: 1.3px;
+}
+
+.Paragraph_3 {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 4%;
+    margin-left: 20%;
+    word-spacing: 1px;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+}
+
+.Paragraph_4 {
+    padding-top: 2%;
+    margin-left: 15.5%;
+}
+
+.Paragraph_4 > p{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 1px;
+    letter-spacing: 1.3px;
+    font-weight: 400;
+}
+
+.Paragraph_4 > p > b{
+    color: #79018C ;
+}
+
+
+.Paragraph_5 {
+    padding-top: 2%;
+    margin-left: 15.5%;
+    margin-bottom: 10%;
+}
+
+.Paragraph_5 > p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 1px;
+    letter-spacing: 1.3px;
+    font-weight: 400;
+}
+
+.Paragraph_5 > p > b{
+    color: #79018C ;
+}
+
+
+
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    height: 32.5%;
+    background-color:#D9D9D9;
+}
+
+.REGISTER {
+    padding-top: 2.2%;
+    padding-left: 3.3%
+}
+
+.REGISTER > a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    font-size: 14px;
+    padding: 1px;
+    /* border-style: double;
+    border-width:7px; */
+    color: black;
+    text-decoration:none;
+}
+
+.REGISTER > a:hover {
+    color: #EA6227;
+    transition: 0.2s;
+    text-decoration:none;
+}
+
+
+/* OUR STORY */
+.OUR_STORY {
+    padding-top: 0.8%;
+    padding-left: 2.8%;
+}
+
+.OUR_STORY > a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    font-size: 14px;
+    padding: 1px;
+    /* border-style: double;
+    border-width:7px; */
+    color: black;
+    text-decoration:none;
+}
+
+.OUR_STORY > a:hover {
+    color: #EA6227;
+    transition: 0.2s;
+    text-decoration:none;
+}
+
+
+/* OUR PRODUCTS */
+.OUR_PRODUCTS {
+    padding-top: 0.8%;
+    padding-left: 2.5%;
+}
+
+.OUR_PRODUCTS > a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    font-size: 14px;
+    padding: 1px;
+    /* border-style: double;
+    border-width:7px; */
+    color: black;
+    text-decoration:none;
+}
+
+.OUR_PRODUCTS > a:hover {
+    color: #EA6227;
+    transition: 0.2s;
+    text-decoration:none;
+}
+
+
+/* ONLINE ORDER */
+.ONLINE_ORDER {
+    padding-top: 0.8%;
+    padding-left: 2.5%;
+}
+
+.ONLINE_ORDER > a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    font-size: 14px;
+    padding: 1px;
+    /* border-style: double;
+    border-width:7px; */
+    color: black;
+    text-decoration:none;
+}
+
+.ONLINE_ORDER > a:hover {
+    color: #EA6227;
+    transition: 0.2s;
+    text-decoration:none;
+}
+
+/* NEWS */
+.NEWS {
+    margin-top: -7.9%;
+    padding-left: 17.2%;
+}
+
+.NEWS > a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    font-size: 14px;
+    padding: 1px;
+    /* border-style: double;
+    border-width:7px; */
+    color: black;
+    text-decoration:none;
+}
+
+.NEWS > a:hover {
+    color: #EA6227;
+    transition: 0.2s;
+    text-decoration:none;
+}
+
+
+/* FRANCHISE */
+.FRANCHISE {
+    padding-top: 0.8%;
+    padding-left: 16.3%;
+}
+
+.FRANCHISE > a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    font-size: 14px;
+    padding: 1px;
+    /* border-style: double;
+    border-width:7px; */
+    color: black;
+    text-decoration:none;
+}
+
+.FRANCHISE > a:hover {
+    color: #EA6227;
+    transition: 0.2s;
+    text-decoration:none;
+}
+
+
+/* CONTACT US */
+.CONTACT_US {
+    padding-top: 0.8%;
+    padding-left: 15.8%;
+}
+
+.CONTACT_US > a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    font-size: 14px;
+    padding: 1px;
+    /* border-style: double;
+    border-width:7px; */
+    color: black;
+    text-decoration:none;
+}
+
+.CONTACT_US > a:hover {
+    color: #EA6227;
+    transition: 0.2s;
+    text-decoration:none;
+}
+
+
+/* kalimat copyrights
+footer > .copyright {
+    color: white;
+    padding-top: 22px;
+    padding-left: 35%;
+} */
+
+/* isntagram */
+.facebook {
+    display:inline-block;
+    padding-top: 0px;
+    margin-left: 195px;
+    width: 32px;
+    height: 32px;
+    z-index: 1001;
+}
+
+
+/* facebook */
+.ig {
+    display:inline-block;
+    padding-top: 15px;
+    padding-left: 13px;
+    width: 32px;
+    height: 32px;
+    z-index: 1001;
+}
+
+/* twitter */
+.tw { 
+    display:inline-block;
+    margin-top: 15px;
+    padding-left: 15px;
+    width: 32px;
+    height: 32px;
+    z-index: 1001;
+}
+
+.farbucksSide {
+    display:flex;
+    margin-top: -10%;
+    margin-left: 1340px;
+    width: 25px;
+    height: 70%;
+    z-index: 1001;
+}
+
+/* MOBILE SETTINGS */
+@media only screen and (max-width: 810px) {
+    /* For mobile phones: */
+    .green {
+        width: 89%;
+        height: 10px;
+        position: absolute;
+        margin-top: 2.5%;
+        /* margin-top: -41.7%; */
+        background-color:#0A7144;
+        z-index: 10000;
+    }
+
+    .logo {
+        width: 80px;
+        height: 80px;
+        position:absolute;
+        z-index: 1001;
+        padding-left: 20px;
+        margin-top: 2%;
+        
+    }
+    
+    .neat {
+        width: 0%;
+        height: 0%;
+        display: flex;
+    }
+
+
+    /* margin-top: 48%; */
+
+    
+    .farbucksSide {
+        margin-top: -21.5%;
+        margin-left: 95%;
+    }
+
+    ul {
+        visibility: hidden;
+    }
+
+    .dropdown_mobile {
+        visibility: visible;
+        position: relative;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .dropdown_button {
+        width: 11%;
+        height: 11%;
+        margin-top: 6.3%;
+        margin-left: 89%; 
+        border: none;
+        background-color: white;
+        padding: 10px 10px;
+        z-index: 1000000;
+
+    }
+
+    .dropdown_button > .dropdown_content {
+        margin-top: 0;
+        position: relative;
+        background-color: rgb(26, 26, 26);
+        z-index: 2000;
+        margin-left: -1091%;
+        margin-top: 12%;
+    }
+
+    .dropdown_button > .dropdown_content a {
+        color: white;
+        padding: 40px 20px;
+        display: none;
+        text-decoration: none;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        letter-spacing: 4px;
+        font-weight: 700;
+    }
+
+    .dropdown_button:hover {
+        background-color: rgb(26, 26, 26);
+    }
+
+    .dropdown_mobile:hover {
+        z-index: 10000;
+    }
+
+    .dropdown_button:hover > .dropdown_content a {
+        display: block;
+    }
+
+    .dropdown_button:hover > .dropdown_content a:hover {
+        background-color:#0A7144;
+    }
+
+    /* BODY */
+
+    .Judul {
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 10.5%;
+        margin-left: 7%;
+        word-spacing: 1px;
+        letter-spacing: 1.5px;
+    }
+
+    .Paragraph_1 {
+        font-size: 20px;
+        width: 90%;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 4.5%;
+        margin-left: 9.5%;
+        word-spacing: 1px;
+        letter-spacing: 1.3px;
+    }
+    
+    .Gambar {
+        position: relative;
+        width: 65%;
+        height: 100%;
+        margin-top: 12%;
+        margin-left: 17.5%;
+    }
+    
+    .Paragraph_2 {
+        font-size: 21px;
+        width: 75%;
+    }
+    
+    .Paragraph_4 {
+        padding-top: 2%;
+        margin-left: 15.5%;
+    }
+    
+    .Paragraph_4 > p{
+        font-size: 21px;
+        width: 90%;
+        font-family: Arial, Helvetica, sans-serif;
+        word-spacing: 1px;
+        letter-spacing: 1.3px;
+        font-weight: 400;
+    }
+    
+    .Paragraph_4 > p > b{
+        color: #79018C ;
+    }
+    
+    
+    .Paragraph_5 {
+        padding-top: 2%;
+        margin-left: 15.5%;
+        margin-bottom: 13%;
+    }
+    
+    .Paragraph_5 > p{
+        font-size: 23px;
+        width: 90%;
+        font-family: Arial, Helvetica, sans-serif;
+        word-spacing: 1px;
+        letter-spacing: 1.3px;
+        font-weight: 400;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* FOOTER */
+    .REGISTER {
+        padding-top: 4.5%;
+        padding-left: 11%
+    }
+    
+    .REGISTER > a {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: relative;
+        font-size: 16px;
+        padding: 1px;
+        /* border-style: double;
+        border-width:7px; */
+        color: black;
+        text-decoration:none;
+    }
+    
+    .REGISTER > a:hover {
+        color: #EA6227;
+        transition: 0.2s;
+        text-decoration:none;
+    }
+    
+    
+    /* OUR STORY */
+    .OUR_STORY {
+        padding-top: 1.8%;
+        padding-left: 9.6%;
+    }
+    
+    .OUR_STORY > a {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: relative;
+        font-size: 16px;
+        padding: 1px;
+        /* border-style: double;
+        border-width:7px; */
+        color: black;
+        text-decoration:none;
+    }
+    
+    .OUR_STORY > a:hover {
+        color: #EA6227;
+        transition: 0.2s;
+        text-decoration:none;
+    }
+    
+    
+    /* OUR PRODUCTS */
+    .OUR_PRODUCTS {
+        padding-top: 1.8%;
+        padding-left: 9.1%;
+    }
+    
+    .OUR_PRODUCTS > a {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: relative;
+        font-size: 16px;
+        padding: 1px;
+        /* border-style: double;
+        border-width:7px; */
+        color: black;
+        text-decoration:none;
+    }
+    
+    .OUR_PRODUCTS > a:hover {
+        color: #EA6227;
+        transition: 0.2s;
+        text-decoration:none;
+    }
+    
+    
+    /* ONLINE ORDER */
+    .ONLINE_ORDER {
+        padding-top: 1.8%;
+        padding-left: 9%;
+    }
+    
+    .ONLINE_ORDER > a {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: relative;
+        font-size: 16px;
+        padding: 1px;
+        /* border-style: double;
+        border-width:7px; */
+        color: black;
+        text-decoration:none;
+    }
+    
+    .ONLINE_ORDER > a:hover {
+        color: #EA6227;
+        transition: 0.2s;
+        text-decoration:none;
+    }
+    
+    /* NEWS */
+    .NEWS {
+        margin-top: -15.7%;
+        padding-left: 36%;
+    }
+    
+    .NEWS > a {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: relative;
+        font-size: 16px;
+        padding: 1px;
+        /* border-style: double;
+        border-width:7px; */
+        color: black;
+        text-decoration:none;
+    }
+    
+    .NEWS > a:hover {
+        color: #EA6227;
+        transition: 0.2s;
+        text-decoration:none;
+    }
+    
+    
+    /* FRANCHISE */
+    .FRANCHISE {
+        padding-top: 0.8%;
+        padding-left: 34%;
+    }
+    
+    .FRANCHISE > a {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: relative;
+        font-size: 16px;
+        padding: 1px;
+        /* border-style: double;
+        border-width:7px; */
+        color: black;
+        text-decoration:none;
+    }
+    
+    .FRANCHISE > a:hover {
+        color: #EA6227;
+        transition: 0.2s;
+        text-decoration:none;
+    }
+    
+    
+    /* CONTACT US */
+    .CONTACT_US {
+        padding-top: 0.8%;
+        padding-left: 33.1%;
+    }
+    
+    .CONTACT_US > a {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: relative;
+        font-size: 16px;
+        padding: 1px;
+        /* border-style: double;
+        border-width:7px; */
+        color: black;
+        text-decoration:none;
+    }
+    
+    .CONTACT_US > a:hover {
+        color: #EA6227;
+        transition: 0.2s;
+        text-decoration:none;
+    }
+    
+    
+    /* kalimat copyrights
+    footer > .copyright {
+        color: white;
+        padding-top: 22px;
+        padding-left: 35%;
+    } */
+    
+    /* isntagram */
+    .facebook {
+        display:inline-block;
+        padding-top: 0px;
+        margin-left: 31%;
+        width: 32px;
+        height: 32px;
+        z-index: 1001;
+    }
+    
+    
+    /* facebook */
+    .ig {
+        display:inline-block;
+        padding-top: 15px;
+        padding-left: 13px;
+        width: 32px;
+        height: 32px;
+        z-index: 1001;
+    }
+    
+    /* twitter */
+    .tw { 
+        display:inline-block;
+        margin-top: 15px;
+        padding-left: 15px;
+        width: 32px;
+        height: 32px;
+        z-index: 1001;
+    }
+
+    .farbucksSide {
+        margin-top: -17%;
+        margin-left: 90%;
+    }
+
+    
+  }
